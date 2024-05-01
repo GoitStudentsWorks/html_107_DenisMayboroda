@@ -1,0 +1,78 @@
+        /* HERO MOBILE */
+
+         .section-hero {
+           padding-top: 60px;
+           padding-bottom: 60px;
+         }
+    
+         .hero-description {
+            
+         }
+    
+         .title-hero {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 0.95;
+            letter-spacing: -0.02em;
+            color: #0c0c0c;
+            max-width: 335px;
+            margin-bottom: 20px;
+         }
+    
+         .title-hero-spn {
+            color: #3350e9;
+         }
+    
+         .text-hero {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.28;
+            letter-spacing: -0.02em;
+            color: rgba(12, 12, 12, 0.7);
+            max-width: 335px;
+            margin-bottom: 28px;
+         }
+    
+         .hero-box-scroll {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            flex-direction: row;
+            gap: 155px;
+            margin-bottom: 28px;
+         }
+    
+         .hero-team-foto {
+            width: 108px;
+         }
+    
+         .hero-btn {
+            font-weight: 500;
+            font-size: 14px; 
+            line-height: 1.28;
+            letter-spacing: -0.02em;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            color: #0c0c0c;
+            border: none;
+            max-width: 102px;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 0;
+         }
+
+         .hero-btn:hover,
+         .hero-btn:focus{
+            color: #3350e9;
+         }
+
+
+    
+         .hero-box- {}
+    
+         .hero-main-foto {}
+
+
+
+
+     
