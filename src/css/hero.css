@@ -5,10 +5,10 @@
            padding-bottom: 60px;
          }
     
-         .hero-description {
-            
+         .hero-wrap{
+            margin-bottom: 28px;
          }
-    
+
          .title-hero {
             font-weight: 600;
             font-size: 40px;
@@ -30,7 +30,6 @@
             letter-spacing: -0.02em;
             color: rgba(12, 12, 12, 0.7);
             max-width: 335px;
-            margin-bottom: 28px;
          }
     
          .hero-box-scroll {
@@ -39,14 +38,15 @@
             justify-content: flex-start;
             flex-direction: row;
             gap: 155px;
-            margin-bottom: 28px;
+            margin-bottom:  28px;
+            max-width: 335px;
+         }
+
+         .hero-team-foto{
+            
          }
     
-         .hero-team-foto {
-            width: 108px;
-         }
-    
-         .hero-btn {
+         .hero-link {
             font-weight: 500;
             font-size: 14px; 
             line-height: 1.28;
@@ -54,25 +54,72 @@
             text-decoration: underline;
             text-decoration-skip-ink: none;
             color: #0c0c0c;
-            border: none;
             max-width: 102px;
-            background-color: transparent;
             cursor: pointer;
-            padding: 0;
          }
 
-         .hero-btn:hover,
-         .hero-btn:focus{
+         .hero-link:hover,
+         .hero-link:focus{
             color: #3350e9;
          }
 
+         /* HERO-TABLET */
 
-    
-         .hero-box- {}
-    
-         .hero-main-foto {}
+         @media screen and (min-width: 768px){
+            
+            .hero-description{
+               display: flex;
+               flex-wrap: wrap;
+               gap: 40px 11px;
+            }
+ 
+          .hero-wrap{
+            max-width: 557px; 
+            margin-bottom: 0;
+          }
+            
+         .title-hero{
+            font-size: 70px;
+            line-height: 0.85;
+            max-width: 557px;
+         } 
+
+         .text-hero{
+            line-height: 1.25;
+            max-width: 480px;
+         }
+
+         .hero-box-scroll{
+            flex-direction: column;
+            gap: 180px;
+            width: 136px;
+            margin-bottom: 0;
+         }
+
+         .hero-link{
+         font-size: 20px;
+         line-height: 1;
+         }
+
+         .hero-bgr{
+         
+         }
+
+         @media screen and (min-width: 1280px) {
+            .hero-description{
+               gap: 40px  407px ;
+            }
+
+         }
+         
 
 
 
+           
+            
+
+
+
+         }
 
      
