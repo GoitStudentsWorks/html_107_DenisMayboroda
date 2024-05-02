@@ -1,0 +1,38 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-item {
+  max-width: 335px;
+  border-radius: 30px;
+}
+
+.us-txt {
+  background-color: #f3f3f3;
+  padding: 40px 20px;
+}
+
+.about-title {
+  margin-bottom: 28px;
+}
+.about-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  max-width: 295px;
+}
+.first-p {
+  margin-bottom: 20px;
+}
+.second-p {
+  margin-bottom: 40px;
+}
+.link-view-catalog {
+  padding: 15px 0;
+  padding-left: 38px;
+  padding-right: 37px;
+}
