@@ -54,13 +54,11 @@
   }
 }
 
-.ad-page .button:hover .contact-us-link {
-  color: #0c0c0c;
-}
 .ad-page .button:hover,
 .ad-page .button:focus {
   border: 1px solid rgba(251, 251, 251, 0.15);
   background: #fbfbfb;
+  color: #0c0c0c;
 }
 
 .contact-us-link {
