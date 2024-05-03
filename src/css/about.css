@@ -36,6 +36,12 @@
   padding: 15px 0;
   padding-left: 38px;
   padding-right: 37px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-view-catalog:hover,
+.link-view-catalog:focus {
+  background-color: #1f3cd4;
 }
 
 @media screen and (min-width: 768px) {
@@ -73,9 +79,16 @@
     min-width: 580px;
   }
 
-  .about-item.us-txt {
+  .us-txt {
     padding: 80px 60px;
     max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .txt-h-cont {
+    max-height: 372px;
   }
 
   .about-text {
