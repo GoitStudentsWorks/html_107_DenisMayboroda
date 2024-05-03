@@ -44,7 +44,7 @@
   }
 
   .about-item {
-    min-width: 704px;
+    max-width: 704px;
     border-radius: 50px;
     max-height: 532px;
   }
@@ -68,6 +68,10 @@
 @media screen and (min-width: 1280px) {
   .about-container {
     flex-direction: row;
+  }
+
+  .us-txt {
+    min-width: 580px;
   }
 
   .about-item.us-txt {
