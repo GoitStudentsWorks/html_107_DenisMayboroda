@@ -60,12 +60,9 @@
   .container {
     max-width: 768px;
   }
-<<<<<<< Updated upstream
 	.header-nav-logo {
 		font-size: 20px;
 	}
-=======
->>>>>>> Stashed changes
 	.header-nav-list {
     display: flex;
     gap: 40px;
@@ -102,11 +99,7 @@
 		height: 40px;
 	}
 }
-<<<<<<< Updated upstream
 @media screen and (min-width: 1280px) {
-=======
-@media screen and (min-width: 1158px) {
->>>>>>> Stashed changes
 	.header-nav {
 		display: flex;
 		justify-content: baseline;
