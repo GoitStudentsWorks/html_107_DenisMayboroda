@@ -9,33 +9,16 @@
   display: inline-block;
   color: #fbfbfb;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 300ms;
+  transition-duration: 250ms;
 }
-.ad-page .button:hover,
-.ad-page .button:focus {
-  border: 1px solid rgba(251, 251, 251, 0.15);
-  background: #fbfbfb;
-}
-.ad-page .button:hover .contact-us-link {
-  color: #0c0c0c;
-}
-
 @media screen and (min-width: 1280px) {
   .ad-page .button {
     margin-bottom: auto;
   }
 }
 
-.contact-us-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: #fbfbfb;
-}
-
 .ad-text {
-  width: 279px;
+  width: 100%;
   margin-bottom: 28px;
   font-weight: 600;
   font-size: 32px;
@@ -59,15 +42,31 @@
 
 .text-n-action-container {
   display: block;
-  align-items: center;
+  padding: 0;
+  width: 100%;
 }
 
 @media screen and (min-width: 1280px) {
   .text-n-action-container {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
-    align-items: center;
   }
+}
+
+.ad-page .button:hover,
+.ad-page .button:focus {
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  background: #fbfbfb;
+  color: #0c0c0c;
+}
+
+.contact-us-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
 }
 .ad-accent {
   opacity: 0.5;
@@ -81,43 +80,41 @@
   max-width: 1280px;
   overflow: hidden;
   background-image: url(../img/advertisement/ad-back-mob-1x.png);
-  background-image: -webkit-image-set(
-    url(../img/advertisement/ad-back-mob-1x.png) 1x,
-    url(../img/advertisement/ad-back-mob-2x.png) 2x
-  );
-  background-image: image-set(
-    url(../img/advertisement/ad-back-mob-1x.png) 1x,
-    url(../img/advertisement/ad-back-mob-2x.png) 2x
-  );
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
-@media screen and (min-width: 768px) {
+@media screen and (min-resolution: 2dppx),
+  (min-resolution: 192dpi),
+  (min-device-pixel-ratio: 2) {
   .ad-wrap {
-    background-image: url(../img/advertisement/ad-back-tab-1x.png);
-    background-image: -webkit-image-set(
-      url(../img/advertisement/ad-back-tab-1x.png) 1x,
-      url(../img/advertisement/ad-back-tab-2x.png) 2x
-    );
-    background-image: image-set(
-      url(../img/advertisement/ad-back-tab-1x.png) 1x,
-      url(../img/advertisement/ad-back-tab-2x.png) 2x
-    );
+    background-image: url(../img/advertisement/ad-back-mob-2x.png);
   }
 }
 
+@media screen and (min-width: 768px) {
+  .ad-wrap {
+    padding: 80px 64px;
+    background-image: url(../img/advertisement/ad-back-tab-1x.png);
+  }
+}
+@media screen and (min-resolution: 2dppx),
+  (min-resolution: 192dpi),
+  (min-device-pixel-ratio: 2) {
+  .ad-wrap {
+    background-image: url(../img/advertisement/ad-back-tab-2x.png);
+  }
+}
 @media screen and (min-width: 1280px) {
   .ad-wrap {
+    padding: 83px 80px;
     background-image: url(../img/advertisement/ad-back-desk-1x.png);
-    background-image: -webkit-image-set(
-      url(../img/advertisement/ad-back-desk-1x.png) 1x,
-      url(../img/advertisement/ad-back-desk-2x.png) 2x
-    );
-    background-image: image-set(
-      url(../img/advertisement/ad-back-desk-1x.png) 1x,
-      url(../img/advertisement/ad-back-desk-2x.png) 2x
-    );
+  }
+}
+@media screen and (min-resolution: 2dppx),
+  (min-resolution: 192dpi),
+  (min-device-pixel-ratio: 2) {
+  .ad-wrap {
+    background-image: url(../img/advertisement/ad-back-desk-2x.png);
   }
 }

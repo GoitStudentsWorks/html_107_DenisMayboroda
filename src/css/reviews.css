@@ -78,7 +78,8 @@
     }
 
     .reviews-li {
-        width: calc((100% - 16px) / 2);
+        max-width: 344px;
+        /* width: calc((100% - 16px) / 2); */
     }
 }
 
