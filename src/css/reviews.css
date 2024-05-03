@@ -4,7 +4,7 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 .reviews-ul {
@@ -58,7 +58,7 @@
     .reviews-main-title {
         font-size: 48px;
         line-height: 0.92;
-        padding-bottom: 24px;
+        margin-bottom: 24px;
     }
     .reviews-li-title {
         font-size: 18px;
@@ -73,6 +73,8 @@
     }
     .reviews-li {
         max-width: 344px;
+        /* width: calc((100% - 16px) / 2); */
+
     }
 }
 
@@ -81,7 +83,7 @@
         display: flex;
     }
     .reviews-main-title {
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
     .reviews-ul {
         gap: 20px;
