@@ -1,63 +1,87 @@
-<section class="section contact">
+<section class="section contact" id="contact-us">
   <div class="container container-contact">
     <h2 class="title contact-title">Contact Us</h2>
-    <div class="contacts-container">
-      <p class="contact-text">
-        Please use the form below to contact us. Enter your name, email, phone,
-        and message and we'll get back to you shortly.
-      </p>
-      <form class="contact-form">
-        <div class="line-input">
-          <label for="user-name"></label>
-          <div class="form-line">
-            <input
-              name="user-name"
-              type="text"
-              class="form-input"
-              placeholder="Name"
-              required
-              id="user-name"
-            />
+    <div class="container-contact-img">
+      <div class="contacts-container">
+        <p class="contact-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-form">
+          <div class="line-input">
+            <label for="user-name"></label>
+            <div class="form-line">
+              <input
+                name="user-name"
+                type="text"
+                class="form-input"
+                placeholder="Name"
+                required
+                id="user-name"
+              />
+            </div>
           </div>
-        </div>
-        <div class="line-input">
-          <label for="user-email"></label>
-          <div>
-            <input
-              name="user-email"
-              type="email"
-              class="form-input"
-              placeholder="Email"
-              required
-              id="user-email"
-            />
+          <div class="line-input">
+            <label for="user-email"></label>
+            <div>
+              <input
+                name="user-email"
+                type="email"
+                class="form-input"
+                placeholder="Email"
+                required
+                id="user-email"
+              />
+            </div>
           </div>
-        </div>
-        <div class="line-input">
-          <label for="user-tel"></label>
-          <div>
-            <input
-              name="user-tel"
-              type="tel"
-              class="form-input"
-              placeholder="+380"
-              required
-              id="user-tel"
-            />
+          <div class="line-input">
+            <label for="user-tel"></label>
+            <div>
+              <input
+                name="user-tel"
+                type="tel"
+                class="form-input"
+                placeholder="+380"
+                required
+                id="user-tel"
+              />
+            </div>
           </div>
-        </div>
-        <div class="line-input-comment">
-          <label for="user-comment"></label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            placeholder="Comment"
-            class="form-comment-text"
-          ></textarea>
-        </div>
-      </form>
-      <button type="submit" class="button btn-contact">Send</button>
+          <div class="line-input-comment">
+            <label for="user-comment"></label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+              class="form-comment-text"
+            ></textarea>
+          </div>
+        </form>
+        <button type="submit" class="button btn-contact">Send</button>
+      </div>
+      <div class="contact-img">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="./img/contact/dtop.png 1x, ./img/contact/dtop-2.png 2x"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1279px)"
+            srcset="./img/contact/tab.png 1x, ./img/about/tab-2.png 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./img/contact/mob.png 1x, ./img/contact/mob-2.png 2x"
+          />
+          <img
+            src="./img/contact/mob.png"
+            alt="contact"
+            width="335"
+            height="512"
+            class="contact-img-image"
+          />
+        </picture>
+      </div>
     </div>
   </div>
-  <div class="container contact-img"></div>
 </section>
