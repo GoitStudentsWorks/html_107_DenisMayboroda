@@ -58,7 +58,6 @@
       @media screen and (min-width: 768px){
  
       .hero-description{
-         align-items: center;
          display: flex;
          align-items: center;
          flex-wrap: wrap;
