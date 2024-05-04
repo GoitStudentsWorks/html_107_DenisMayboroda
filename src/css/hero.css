@@ -1,5 +1,9 @@
       /* HERO MOBILE */
 
+      .section-hero{
+         padding-top: 60px;
+      }
+
       .hero-wrap{
          margin-bottom: 28px;
       }
@@ -56,6 +60,10 @@
       /* HERO-TABLET */
 
       @media screen and (min-width: 768px){
+        
+         .section-hero{
+            padding-top: 80px;
+         }   
  
       .hero-description{
          display: flex;
@@ -98,6 +106,10 @@
 
      @media screen and (min-width: 1280px) {
    
+      .section-hero{
+         padding-top: 80px;
+      }
+
       .hero-description{
          justify-content: space-between;
       }
