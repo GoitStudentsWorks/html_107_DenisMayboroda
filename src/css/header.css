@@ -74,19 +74,19 @@
     color: #0c0c0c;
     position: relative;
   }
-  .current::after {
-    position: absolute;
-    content: "";
-    width: 8px;
-    height: 8px;
-		left: 50%;
-		transform: translateX(-50%);
-    bottom: -4px;
-		font-size: 20px;
-		background-color: #3350e9;
-    display: block;
-    border-radius: 100%;
-  }
+	.current:hover::after {
+			position: absolute;
+			content: "";
+			width: 8px;
+			height: 8px;
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: -4px;
+			font-size: 20px;
+			background-color: #3350e9;
+			display: block;
+			border-radius: 100%;
+}
 	.open-menu-img {
 		width: 34px;
 		height: 16px;
@@ -226,7 +226,7 @@
   color: #fbfbfb;
 	position: relative;
 }
-.mob-link.current::after {
+.mob-link.current:hover::after {
 	position: absolute;
 	content: "";
 	width: 8px;
