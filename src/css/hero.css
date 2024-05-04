@@ -60,11 +60,7 @@
       /* HERO-TABLET */
 
       @media screen and (min-width: 768px){
-        
-         .section-hero{
-            padding-top: 80px;
-         }   
- 
+
       .hero-description{
          display: flex;
          align-items: center;
@@ -125,6 +121,12 @@
          max-width: 146px;
       }
  
-      }    
+      }  
+      
+      @media screen and (min-width: 768px) and (max-width: 1280px){
+         .section-hero{
+            padding-top: 80px;
+         }
+      }
 
      
