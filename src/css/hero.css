@@ -102,6 +102,10 @@
 
      @media screen and (min-width: 1280px) {
    
+      .section-hero{
+         padding-top: 80px;
+      }
+
       .hero-description{
          justify-content: space-between;
       }
