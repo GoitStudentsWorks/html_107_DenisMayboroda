@@ -5,7 +5,9 @@
 }
 
 .contact-title {
-  margin-bottom: 24px;
+}
+
+.container-contact-img {
 }
 
 .contacts-container {
@@ -14,6 +16,7 @@
   width: 100%;
   height: 512px;
   padding: 48px 28px;
+  margin-bottom: 20px;
 }
 
 .contact-text {
@@ -21,9 +24,9 @@
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .line-input {
@@ -47,7 +50,7 @@
 }
 
 .line-input-comment {
-    margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .form-comment-text {
@@ -60,34 +63,55 @@
 }
 
 .form-comment-text::placeholder {
-    font-weight: 400;
-    color: #0c0c0c;
+  font-weight: 400;
+  color: #0c0c0c;
 }
 
 .btn-contact {
-    width: 134px;
-    height: 42px;
-    padding: 12px 50px;
+  width: 134px;
+  height: 42px;
+  padding: 12px 50px;
 }
 
 .contact-img {
 }
 
+.contact-img-image {
+}
+
 @media screen and (min-width: 768px) {
+  .contact-title {
+    margin-bottom: 40px;
+  }
+
   .contacts-container {
     border-radius: 50px;
-    height: 556px;
     padding: 50px 122px;
+    margin-bottom: 40px;
   }
 
   .contact-text {
     margin-bottom: 32px;
   }
+
+  .contact-img-image {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+.container-contact-img {
+  display: flex;
+  height: 556px;
+  gap: 40px;
+}
+
   .contacts-container {
     width: 580px;
+    height: 556px;
     padding: 50px 60px;
+    margin-bottom: 0;
   }
 }
+
