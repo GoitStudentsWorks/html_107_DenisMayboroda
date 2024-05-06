@@ -24,12 +24,11 @@
 display: flex;
 justify-content: center;
 align-items: center;
-margin-bottom: 28px;
+padding: 18px 36px 18px 35px;
+margin-bottom: 10px;
 }
 
 .catalog-list-picture {
-  width: 208px;
-  height: 226px;
   transition: transform 0.3s;
 }
 
@@ -45,7 +44,7 @@ margin-bottom: 28px;
 }
 
 .catalog-list-name {
-  width: 304px;
+  width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -99,14 +98,9 @@ margin-bottom: 28px;
   }
 
     .catalog-picture-wrap {
-      margin-bottom: 20px;
+      padding: 10px 6px;
     }
   
-    .catalog-list-picture {
-      width: 268px;
-      height: 292px;
-    }
-
   .catalog-list-name {
     font-size: 20px;
   }
@@ -121,8 +115,5 @@ margin-bottom: 28px;
     width: calc((100% - 46px) / 3);
   }
 
-    .catalog-list-picture {
-      width: 292px;
-      height: 292px;
-    }
+
 }
