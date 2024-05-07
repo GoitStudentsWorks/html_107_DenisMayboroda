@@ -5,6 +5,7 @@
   position: sticky;
   left: 0;
   top: 0;
+  z-index: 2;
 }
 
 .header-nav-logo {
@@ -108,10 +109,10 @@
     position: sticky;
     left: 0;
     top: 0;
+    z-index: 2;
   }
   .header-nav {
     display: flex;
-    height: 28px;
   }
   .header-nav-item {
     font-weight: 500;
@@ -152,8 +153,8 @@
     opacity: 0.8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .social-icon:hover,
-  .social-icon:focus {
+  .social-link:hover .social-icon,
+  .social-link:focus .social-icon {
     fill: #3350e9;
   }
   .open-menu-btn {
