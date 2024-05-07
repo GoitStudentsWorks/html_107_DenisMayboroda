@@ -17,8 +17,6 @@
     margin-bottom: 20px;
 }
 
-.picture-wrap {}
-
 .sale-content-wrap {
     background-color: #3350e9;
     border-radius: 30px;
@@ -68,7 +66,6 @@
     color: #fbfbfb;
 }
 
-
 .fourth-text {
     font-weight: 400;
     font-size: 12px;
@@ -95,8 +92,6 @@
     flex-direction: row;
     gap: 8px;
 }
-
-.sale-content-list-item {}
 
 .list-item-text {
     font-weight: 500;
