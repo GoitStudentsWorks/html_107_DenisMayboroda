@@ -1,5 +1,10 @@
 /* Reset styles */
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
 body {
   font-family: 'Gilroy', sans-serif;
   background-color: #fbfbfb;
