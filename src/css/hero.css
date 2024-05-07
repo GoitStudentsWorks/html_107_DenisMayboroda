@@ -48,6 +48,7 @@
          color: #0c0c0c;
          max-width: 102px;
          transition: color 250ms cubic-bezier(0.4,0,0.2,1);
+         text-wrap: nowrap;
       }
 
       .hero-link:hover,
