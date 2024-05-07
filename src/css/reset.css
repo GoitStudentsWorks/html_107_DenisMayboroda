@@ -69,6 +69,14 @@ button {
   background: #1f3cd4;
 }
 
+input {
+  outline: transparent;
+}
+
+textarea {
+  outline: transparent;
+}
+
 img {
   display: block;
   max-width: 100%;
