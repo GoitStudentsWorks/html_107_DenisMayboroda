@@ -115,8 +115,18 @@
     line-height: 1.25;
   }
 
+  .form-input{
+    height: 52px;
+  }
+
   .line-input-comment {
     margin-bottom: 14px;
+  }
+
+  .btn-contact {
+    width: 160px;
+    height: 52px;
+    padding: 17px 63px;
   }
 
   .contact-img-image {
@@ -138,4 +148,9 @@
     padding: 50px 60px;
     margin-bottom: 0;
   }
+
+  .form-input{
+    height: 52px;
+  }
+
 }
