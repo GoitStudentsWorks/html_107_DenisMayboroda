@@ -174,7 +174,7 @@ opacity:1;
 			background-image:linear-gradient(
 				rgba(12, 12, 12, 0.92),
 				rgba(12, 12, 12, 0.92)
-			), url(../img/header-modal/mod-mob-x1.png);
+			), url(../images/header-modal/mod-mob-x1.png);
 			background-repeat: no-repeat;
 			background-position: center;
 			background-size: cover;
@@ -195,7 +195,7 @@ opacity:1;
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(../img/header-modal/mod-mob-x2.png);
+      url(../images/header-modal/mod-mob-x2.png);
 			background-size: cover;
   }
 }
@@ -288,7 +288,7 @@ opacity:1;
 		background-image:linear-gradient(
 			rgba(12, 12, 12, 0.92),
 			rgba(12, 12, 12, 0.92)
-		), url(../img/header-modal/mod-tab-x1.png);
+		), url(../images/header-modal/mod-tab-x1.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -322,7 +322,7 @@ opacity:1;
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(../img/header-modal/mod-tab-x2.png);
+      url(../images/header-modal/mod-tab-x2.png);
 			background-size: cover;
   }
 }
