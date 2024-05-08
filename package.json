@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-Do-your-first-step/",
+    "build": "vite build --base=/html_107_DenisMayboroda/",
     "preview": "vite preview"
   },
   "devDependencies": {
